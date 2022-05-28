@@ -107,3 +107,46 @@ flex-grow: 0;
 #green {
     color: green;
 }
+.text{
+    
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+
+/* Neutrals/N800 */
+
+color: #172B4D;
+width: 327px;
+height: 164px;
+flex: none;
+order: 1;
+flex-grow: 0;
+/* Inside auto layout */
+
+}
+.social-icons{
+    width: 170.17px;
+    height: 20px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0; 
+ list-style-type: none;
+ justify-content: space-between;
+ display: inline;
+
+}
+.social-icons li{
+flex-direction: column;
+justify-content: space-between;
+display: inline-flex;
+}
+
+    
