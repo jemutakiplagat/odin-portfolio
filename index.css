@@ -4,3 +4,40 @@
     padding: 0;
     margin: 0;
 }
+nav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 44;
+   display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
+.logo{
+    list-style-type: none;
+    text-decoration: none;
+}
+/* .nav-links{
+   
+  flex: 1;
+    flex-direction: row;
+    position: absolute;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    top:calc(50%-40 / 2);
+    border-radius: 8px;
+    justify-content: space-between;
+    color:red;
+
+}
+.nav-links ul li  {
+list-style: none;
+display: inline;
+padding: 8px 12px;
+position: relative;
+justify-content: space-between;
+list-style-type: none;
+} */
