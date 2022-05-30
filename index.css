@@ -534,3 +534,33 @@ flex-grow: 0;
 #resume {
     width: 159px;
 }
+
+.card {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 1px;
+gap: 24px;
+
+width: 327px;
+height: 1106px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.card-works img{
+width: 327px;
+height: 352px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
