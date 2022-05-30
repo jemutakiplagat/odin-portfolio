@@ -441,3 +441,96 @@ flex: none;
 
 flex-grow: 0;
 }
+ button:hover {
+     background-color: #3A4A42;
+     color: #36B37E;
+ }
+
+ .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 24px;
+    gap: 58px;
+    
+    position: absolute;
+    width: 375px;
+    height: 1625px;
+    left: 0px;
+    top: 4020px;
+ 
+ }
+
+  .about .about-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 24px;
+   
+    width: 351px;
+    height: 333px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+   
+    flex-grow: 0;
+
+    background-image: url(images/illustration-\ about\ me-\ mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .about .about-text{
+    width: 351px;
+    height: 48px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    /* or 130% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0 0 200px;
+
+    color: #172B4D;
+    
+    
+    /* Inside auto layout */
+    
+ }
+
+.supporting-text{
+width: 351px;
+height: 189px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+text-align: center;
+
+/* Neutrals/N500 */
+
+color: #42526E;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#resume {
+    width: 159px;
+}
