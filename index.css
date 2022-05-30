@@ -564,3 +564,151 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
+.card-works > #icon{
+   position: absolute;
+    width: 100px;
+    height: 100px;
+    left: calc(50% - 100px/2);
+    top: 486px;
+  
+}
+.languages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 327px;
+    height: 96px;
+    left: calc(50% - 327px/2);
+    bottom: 72px;
+    
+}
+.languages h3{
+    width: 337px;
+    height: 32px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    top: -984px;
+    text-align: center;
+    
+    /* Neutrals/N600 */
+    position: absolute;
+    color: #344563;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.languages #tags{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+top: -900px;
+width: 271px;
+height: 40px;
+position: absolute;
+list-style-type: none;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.languages > #tags #javascript{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:12px;
+    
+    width: 69px;
+    height: 25px;
+    
+    /* Theme 2 / Neutral 10 */
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #36B37E;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.languages > #tags #ruby{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    
+    width: 35px;
+    height: 25px;
+    
+    /* Theme 2 / Neutral 10 */
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #36B37E;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.languages > #tags #html{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    
+    width: 33px;
+    height: 25px;
+    
+    /* Theme 2 / Neutral 10 */
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #36B37E;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.languages > #tags #css{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    
+    width: 30px;
+    height: 25px;
+    
+    /* Theme 2 / Neutral 10 */
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #36B37E;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+#tags a{
+    color: #36B37E;
+}
