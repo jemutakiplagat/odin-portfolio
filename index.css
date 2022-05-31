@@ -465,15 +465,11 @@ flex-grow: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     gap: 24px;
    
     width: 351px;
     height: 333px;
-    
-    
-    /* Inside auto layout */
-    
     flex: none;
    
     flex-grow: 0;
