@@ -457,7 +457,7 @@ flex-grow: 0;
     width: 375px;
     height: 1625px;
     left: 0px;
-    top: 4020px;
+    top: 3000px;
  
  }
 
@@ -591,7 +591,7 @@ margin-left: 96px;
     flex-grow: 0;
 }
 
-.card-works > .tags1{
+.card-works > .card-tag{
     display: flex;
 flex-direction: row;
 align-items: center;
@@ -693,22 +693,219 @@ height: 40px;
 position: absolute;
 list-style-type: none;
 }
-/* card 2 */
-/* .card-works #placeholder{
-    width: 327px;
-    height: 352px;
+
+      .card-works > .frameworks{
+        width: 337px;
+        height: 32px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        
+        text-align: center;
+        
+        color: #344563;
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .card-works > .card-framework{
+        display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    top: 656px;
+    width: 271px;
+    height: 40px;
+   
+    list-style-type: none;
     
     
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     }
-    .card-works > #icon1{
-        position: absolute;
-         width: 100px;
-         height: 100px;
-         left: calc(50% - 100px/2);
-         top: 856px;
-       
-     }
-      */ 
+    .card-works > .card-framework li{
+        display: grid;
+     
+        align-items: center;
+        padding: 12px;
+        
+        width: 53px;
+        height: 20px;
+        
+        background: #FFFFFF;
+        border-radius: 8px;
+        
+    }
+    .card-works > .skills{
+        width: 337px;
+        height: 32px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        
+        text-align: center;
+        
+        color: #344563;
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .card-works > .skills-tag {
+        display: flex;
+     
+        align-items: center;
+        padding: 12px;
+        
+        width: 33px;
+        height: 20px;
+        
+        background: #FFFFFF;
+        border-radius: 8px;
+        
+    } 
+    .card-works > .skills-tag li {
+        display: flex;
+     justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+        
+        width: 43px;
+        height: 20px;
+        
+        background: #FFFFFF;
+        border-radius: 8px;
+        
+    } 
+    .contact-form{
+        display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 64px 24px;
+gap: 58px;
+
+position: absolute;
+width: 375px;
+height: 879px;
+left: 0px;
+top: 4750px;
+    }
+    .contact-form{
+        width: 327px;
+height: 363px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
+
+text-align: center;
+
+/* Neutrals/N800 */
+
+color: #172B4D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+    .form-container{
+        display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 327px;
+height: 330px;
+background-image: url(images/Frame@2x.png);
+background-repeat: no-repeat;
+background-size: cover;
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+    }
+    input[type=text]{
+        width: 327px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Theme 2 / Text Input Normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+display: flex;
+align-items: center;
+
+/* Theme 1 / Neutrals 6 */
+
+color: #6B778C;
+
+    }
+    input[type=Email]{
+        width: 327px;
+height: 48px;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Theme 2 / Text Input Normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+display: flex;
+align-items: center;
+
+/* Theme 1 / Neutrals 6 */
+
+color: #6B778C;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+    textarea[id=subject] {
+        width: 327px;
+height: 114px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+    }
