@@ -229,29 +229,15 @@ gap: 24px;
 
 width: 331px;
 height: 2972px;
-
-
-/* Inside auto layout */
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 4px 2px;
-gap: 24px;
-
-width: 331px;
-height: 2972px;
-
-
-/* Inside auto layout */
-
 order: 1;
+
 }
 
-.placeholder {
+.placeholder > img {
     width: 327px;
     height: 222px;
-    
-background: #EBF0EE;
+   
+    background: #EBF0EE;
 /* Theme 2 / Neutral 9 */
 
 border: 1px solid #D0D9D4;
@@ -268,10 +254,10 @@ padding: 16px;
 width: 295px;
 height: 222px;
 left: calc(50% - 327px/2);
-bottom: 0px;
 
+margin-top: 220px;
 /* Neutrals/N0 */
-background-color: #fff;
+background: #FFFFFF;
 border: 1px solid #D0D9D4;
 border-radius: 8px;
 }
@@ -531,8 +517,8 @@ flex-grow: 0;
 #resume {
     width: 159px;
 }
-
-/* .card {
+/* 
+.card {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -558,17 +544,27 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.card-works > #icon{
-    left: 124px;
-    top: 24px;
-    
-    width: 127px;
-    height: 128px;
-margin-left: 96px;
-    top: 16px;
+.card-works > .icon{
+
+   
+width: 300px;
+height: 128px;
+left: calc(50% - 327px/2);
+
+top: 24px;
+
+
 }
 
-
+#icon1{
+ 
+width: 120px;
+height: 120px;
+left: 124px;
+top: 24px;
+margin-left: 96px;
+margin-top: 50px;
+}
 .card-works > .languages{
     width: 337px;
     height: 32px;
@@ -599,6 +595,7 @@ width: 271px;
 height: 40px;
 position: absolute;
 list-style-type: none;
+margin-top: 60px;
 
 
 flex: none;
